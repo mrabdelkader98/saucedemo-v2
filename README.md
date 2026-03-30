@@ -2,7 +2,7 @@
 
 This is a robust **Web Automation Testing Framework** built for the [SauceDemo](https://www.saucedemo.com/) website. The project demonstrates a professional approach to UI testing, focusing on scalability, clean code, and advanced reporting.
 
-##  Tech Stack & Tools
+##  Tech Stack & Tools 
 * **Language:** Java
 * **Automation Tool:** Selenium WebDriver
 * **Test Runner:** TestNG
