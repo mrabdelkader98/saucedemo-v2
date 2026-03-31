@@ -1,24 +1,45 @@
-# SauceDemo Hybrid Automation Framework
+🚀 Multi-Layer Automation Portfolio Project
+This project demonstrates my ability to handle various automation testing layers—Web UI, API, and Database—within a single Maven-based Java framework. It focuses on clean code, proper package structuring, and professional reporting.
 
-This project is a comprehensive automation suite for SauceDemo, designed to demonstrate a real-world testing approach integrating UI, API, and Database layers.
+🛠 Project Components
+UI Automation: Selenium WebDriver & TestNG.
 
-## Project Core
-* **UI:** Selenium WebDriver + TestNG (Data-Driven).
-* **API:** Rest-Assured for backend validation.
-* **DB:** JDBC for SQL data integrity checks.
-* **Reports:** Extent Reports for clear execution tracking.
+API Testing Layer: Rest-Assured (Integration samples).
 
-## Real-World Challenges I Handled:
-During development, I focused on solving common automation "bottlenecks" rather than just writing scripts:
-* **Security Popups:** Resolved the Chrome "Password Breach" notification that usually interrupts test execution using custom `ChromeOptions`.
-* **Session Management:** Forced **Incognito Mode** to ensure every test starts with a clean slate, preventing cache-related failures.
-* **Data Flexibility:** Used `@DataProvider` to run the same test against multiple user profiles (standard, locked, problem users) without duplicating code.
-* **API/DB Layer:** Added a backend validation layer because UI testing alone isn't enough for full confidence in a system.
+Database Layer: JDBC (SQL Query logic).
 
-## Quick Start
-1. Clone: `git clone https://github.com/mrabdelkader98/saucedemo-v2.git`
-2. Run `testng.xml` from IntelliJ.
-3. Check `target/ExtentReport.html` for results.
+Reporting: Extent Reports (Interactive HTML).
 
----
-**Mohamed Refaat Hassan** *Software QA Tester | ISTQB Certified*
+🌟 Key Highlights
+1. Web UI Testing (SauceDemo)
+Fully automated the E-commerce flow from login to checkout.
+
+Implemented Data-Driven Testing (DDT) using TestNG @DataProvider to test multiple user personas.
+
+Handled real-world browser challenges like Chrome Security Popups and Incognito Mode execution.
+
+2. API Automation Skills
+Integrated Rest-Assured to demonstrate backend testing capabilities.
+
+Developed test samples to validate HTTP requests (GET/POST), status codes, and response body structure.
+(Note: Used global endpoints as models to showcase library configuration and connectivity).
+
+3. Database Validation Logic
+Implemented a dedicated layer for JDBC (SQL) connectivity.
+
+Wrote clean logic for executing SQL queries and validating data integrity directly from the test suite.
+(Note: Connectivity demonstrated through setup logic, prepared for real-world DB environments).
+
+📝 Why this project?
+Instead of just focusing on UI, I built this repository to show my readiness for complex testing environments where a QA Engineer needs to interact with the frontend, the backend, and the data layer.
+
+🚀 How to Run
+Clone the repo: git clone https://github.com/mrabdelkader98/saucedemo-v2.git
+
+Run testng.xml from IntelliJ.
+
+Check target/ExtentReport.html for results.
+
+👨‍💻 Developed by
+Mohamed Refaat Hassan
+Software Quality Assurance Engineer | ISTQB Certified
