@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class AdditivesTest extends saucedemo.Base {
+public class AdditivesTest extends saucedemo_ui.Base {
 
     @DataProvider(name = "loginData")
     public Object[][] getData(){

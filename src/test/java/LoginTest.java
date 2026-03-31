@@ -2,7 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class LoginTest extends saucedemo.Base {
+public class LoginTest extends saucedemo_ui.Base {
 
     @Test
 public void SuccessfulLogin() throws InterruptedException {
